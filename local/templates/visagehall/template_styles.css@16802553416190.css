@@ -1,0 +1,375 @@
+.alert {
+    border: 0;
+    border-radius: 1px;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 20px
+}
+
+.bxe-aleft-title {
+    font-weight: bold;
+    padding-bottom: 5px
+}
+
+.merch-preview__icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #e0c49c;
+    font-size: 12px;
+    font-weight: 500;
+    top: 0px !important;
+}
+
+.merch-preview__icon.new:after{
+    content: 'NEW';
+}
+
+@media (max-width: 1100px) {
+    .merch-preview__icon {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 750px) {
+    .merch-preview__icon {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+        font-size: 10px;
+    }
+}
+
+.merch-preview__icons {
+    z-index: 2;
+    display: inline-flex;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+
+.logo-header img {
+    height: 50px !important;
+    background: white;
+
+}
+
+.logo-header {
+    width: 226px !important;
+    height: 50px !important;
+}
+
+
+.logo-header {
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.adress_link {
+    font-size: 14px !important;
+    background: transparent;
+    padding: 9px;
+    color: black;
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.adress_link:after{
+    content: "";
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    background: url(images/map-marker-black.svg) no-repeat center;
+    background-size: contain;
+    transition-duration: 0.3s;
+}
+.adress_link:hover{
+    color: #e6c396;
+}
+.adress_link:hover:after{
+    background: url(images/map-marker-hover.svg) no-repeat center;
+}
+.header__bottom-belt {
+    background-color: #2d1911 !important;
+
+}
+
+.breadcrumbs__wrap {
+    margin-top: 10px
+}
+
+.control_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.main_cont {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+}
+
+.header__link {
+    color: black;
+}
+
+
+.nav__item:first-of-type a {
+    color: white;
+}
+
+
+.header__link {
+    white-space: nowrap
+}
+
+
+.img_map {
+    width: 18px;
+    margin-left: 0.6em;
+    margin-top: -2px;
+}
+
+.map__close {
+    background: #2d1911 !important
+}
+
+.search-section {
+    padding-top: 35px !important;
+}
+
+.bx-authform {
+    margin-top: 30px;
+}
+
+.header__bottom-belt .container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.thanks__img {
+    width: 568px;
+}
+
+/*
+.slick-slide:hover img {
+    transform: scale(1.25);
+}
+
+ */
+
+
+@media (max-width: 1200px) {
+    .header__nav {
+        width: 100%;
+    }
+
+    .header__bottom-belt .container {
+        height: 25px;
+    }
+
+    .adress_link {
+        left: 12px !important;
+        position: fixed !important;
+    }
+
+
+    .control_head {
+        right: 12px !important;
+        position: fixed !important;
+    }
+
+    .main_cont {
+        justify-content: center;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo-header {
+        margin: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .menumarker {
+        position: fixed !important;
+        left: 15px !important;
+    }
+
+    .nav__item_adress {
+        display: none;
+    }
+
+    .header__link {
+        color: white;
+    }
+
+    .adress_link {
+        display: none;
+    }
+
+    .control_head {
+        top: 64px;
+        right: 12px !important;
+        z-index: 1;
+        position: absolute !important;
+    }
+
+    .logo-header img {
+        height: 35px !important;
+        margin-top: 10px;
+    }
+
+    .logo-header {
+        width: 300px !important;
+    }
+
+}
+
+.social-links__link.fa.fa-instagram {
+    display: none;
+}
+
+.slick-slide .merch-preview .merch-preview__icons {
+    left: 15px;
+
+}
+
+.subsOverlay {
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    z-index: 22;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.subscribeWrap {
+    width: 400px;
+    height: 500px;
+    background: #2e1a15;
+    color: #dcc3a0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 23;
+    padding: 65px 55px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.subsTitle {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.closeSubs {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    cursor: pointer;
+}
+@media (max-width: 750px) {
+    .closeSubs {
+        right: 25px;
+    }
+}
+.subscribeWrap p {
+    text-align: center;
+    margin-bottom: 45px;
+    line-height: 1.4;
+}
+
+.subsCheckbox {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    border: 1px solid #dcc3a0;
+}
+
+.subsPolicy {
+    font-size: 10px;
+}
+
+.subsPolicy a {
+    color: #dcc3a0;
+    text-decoration: underline;
+}
+
+.subsPolicy a:hover {
+    text-decoration: none;
+}
+
+.subsFormInput {
+    border: 2px solid #dcc3a0;
+    height: 40px;
+    background: transparent;
+    padding: 5px 10px;
+    width: 100%;
+    color: #dcc3a0;
+}
+
+.subsFormInput::placeholder {
+    color: #dcc3a0;
+}
+
+.inputItem {
+    margin-bottom: 15px;
+}
+
+.subsBtn {
+    width: 100%;
+    height: 40px;
+    background: #dcc3a0;
+    color: #2e1a15;
+    border: 2px solid #dcc3a0;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: all .3s;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.subsBtn:hover {
+    color: #dcc3a0;
+    background: #2e1a15;
+}
+
+.subsCheckbox:checked {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23dcc3a0%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+}

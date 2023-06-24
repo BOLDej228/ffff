@@ -1,0 +1,6 @@
+input.search-suggest {}
+div.search-popup{box-shadow: 0 4px 12px rgba(0,0,0,0.161);background: #FFFFFF;margin: 0;}
+div.search-popup-row{background:#ffffff;position: relative; padding: 6px 12px;margin: 0;cursor: pointer;}
+div.search-popup-row._active, div.search-popup-row:hover{background:#f6f6f6;}
+div.search-popup-el-name, div.search-popup-el-cnt{position: relative; margin:0;padding:0;text-align:left;}
+div.search-popup-el-cnt{text-align:right; float:right;}
