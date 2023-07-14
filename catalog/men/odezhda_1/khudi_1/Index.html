@@ -2422,7 +2422,35 @@
     })()
   </script>
 
-  
+<footer class="footer">
+  <div class="container">
+    <div class="footer__row">
+      <div class="footer-nav">
+        <div class="footer-nav__item">
+          
+          
+        </div>
+        <script type="text/javascript">
+          (function() {
+            for (let i of document.querySelectorAll('.footer-nav .footer-nav__item > .footer-title')) {
+              i.onclick = function(e) {
+                if (!i.parentNode.classList.contains('_open')) {
+                  e.preventDefault()
+                }
+                i.parentNode.classList.toggle('_open');
+              }
+            }
+          })();
+        </script>
+      </div>
+      <div class="footer__wrap">
+        <div class="social-links">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
 
   <div class="overlay js-overlay" style="transform: translateX(-130%);"></div>
 
